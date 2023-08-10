@@ -71,7 +71,14 @@ filter = "info,ckb-script=debug"# instead of "info"
 # Other parameters...
 ```
 
-9. In the `ckb-miner.toml` file under the `[[miner.workers]]` section set:
+9. In the `ckb.toml` file under the `[rpc]` section set:
+Append `"Indexer"` to `modules`.
+```toml
+modules = ["Net", "Pool", "Miner", "Chain", "Stats", "Subscription", "Experiment", "Debug", "Indexer"]
+
+```
+
+10. In the `ckb-miner.toml` file under the `[[miner.workers]]` section set:
 
 ``` toml
 [[miner.workers]]
@@ -79,13 +86,13 @@ filter = "info,ckb-script=debug"# instead of "info"
 value = 200 # instead of 5000
 ```
 
-10. Activate the new spec for the first use by running the following command for a few seconds:
+11. Activate the new spec for the first use by running the following command for a few seconds:
 
 ``` bash
 ckb run --skip-spec-check --overwrite-spec
 ```
 
-11. In a new terminal start ckb node and miner:
+12. In a new terminal start ckb node and miner:
 
 ```bash
 (trap 'kill -INT 0' SIGINT; cd ~/ckb_dev/; ./ckb run --indexer & sleep 1 && ./ckb miner)
