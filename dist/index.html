@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>dCKB Rescuer: deprecated</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏥</text></svg>"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:title" content="dCKB Rescuer: deprecated" />
+    <meta property="og:type" content="website" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        color: #555;
+        margin: 0 auto;
+        max-width: 50em;
+        font-family: "Helvetica", "Arial", sans-serif;
+        line-height: 1.5;
+        padding: 2em 1em;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      h2 {
+        font-size: 2em;
+      }
+
+      h2,
+      h3 {
+        margin-top: 1.5em;
+      }
+
+      h1,
+      h2,
+      strong {
+        color: #333;
+      }
+
+      a {
+        color: #f56a6a;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="content">
+        <h1>⚠️ dCKB Rescuer: Deprecated ⚠️</h1>
+        <p>
+          <strong>TLDR:</strong> v1 interface retired due to Lumos deprecation
+          and Fleek migration. Rebuild needed
+        </p>
+        <h2>Why it's deprecated</h2>
+        <ul>
+          <li>
+            <strong>Framework deprecation:</strong> The UI was built on
+            <strong>Lumos</strong>, which is deprecated, continuing to use it
+            would be insecure and unsupported.
+          </li>
+          <li>
+            <strong>Hosting migration:</strong> Fleek migrated away from
+            fleek.co. The previous URL (<code class="inline"
+              >dckb-rescuer.on.fleek.co</code
+            >) is no longer under our control.
+          </li>
+          <li>
+            <strong>Security action:</strong> A deletion request was submitted
+            for the old Fleek-hosted site to reduce user risk.
+          </li>
+        </ul>
+
+        <h2 style="margin-top: 14px">Immediate consequence</h2>
+        <ul>
+          <li>
+            The existing v1 UI is not usable and cannot be reliably restored
+            without a full rebuild.
+          </li>
+        </ul>
+
+        <h2 style="margin-top: 14px">Path forward</h2>
+        <ul>
+          <li>
+            <strong>Full rebuild required:</strong> Replace Lumos-dependent code
+            with CCC and rebuild the rescuer from scratch.
+          </li>
+          <li>
+            <strong>Integration plan:</strong> There's intent to fold rescuer
+            functionality into the upcoming iCKB CCC-enabled website once ready.
+          </li>
+        </ul>
+
+        <h2 style="margin-top: 14px">More info</h2>
+        <p class="small">
+          Tracking and discussion:
+          <a
+            class="link"
+            href="https://github.com/dckb-rescuer/v1-interface/issues/2"
+            target="_blank"
+            rel="noopener"
+            >https://github.com/dckb-rescuer/v1-interface/issues/2</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,4 +1,16 @@
-# dCKB rescuer v1 interface
+# ⚠️ dCKB Rescuer: Deprecated ⚠️
+
+This dCKB Rescuer interface (previously hosted on dckb-rescuer.on.fleek.co) is no longer usable due to Fleek migration from fleek.co and the deprecation of Lumos, the framework upon which the interface was built.
+
+Consequently, **the dCKB Rescuer needs to be rebuilt from scratch**. There is an idea to integrate the dCKB Rescuer into the upcoming iCKB CCC-enabled website, once its development is complete.
+
+Please note that we have no control over the previous URL (dckb-rescuer.on.fleek.co) post Fleek migration, so a request for deletion has been submitted to maintain user security.
+
+See also the dedicated issue: https://github.com/dckb-rescuer/v1-interface/issues
+
+Thank you for your understanding as we work through these changes.
+
+Follows the original Readme.
 
 ## Setup
 
