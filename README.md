@@ -1,14 +1,8 @@
-# ⚠️ dCKB Rescuer: Deprecated ⚠️
+# ⚠️ dCKB Rescuer: Discontinued ⚠️
 
-This dCKB Rescuer interface (previously hosted on dckb-rescuer.on.fleek.co) is no longer usable due to Fleek migration from fleek.co and the deprecation of Lumos, the framework upon which the interface was built.
+The NervosDAO deposits behind dCKB were drained, so there is nothing left to rescue: https://talk.nervos.org/t/dckb-post-post-mortem-now-the-funds-are-gone/11016
 
-Consequently, **the dCKB Rescuer needs to be rebuilt from scratch**. There is an idea to integrate the dCKB Rescuer into the upcoming iCKB CCC-enabled website, once its development is complete.
-
-Please note that we have no control over the previous URL (dckb-rescuer.on.fleek.co) post Fleek migration, so a request for deletion has been submitted to maintain user security.
-
-See also the dedicated issue: https://github.com/dckb-rescuer/v1-interface/issues
-
-Thank you for your understanding as we work through these changes.
+This interface, previously hosted on dckb-rescuer.on.fleek.co, stopped working in 2025. We have no control over that URL after the Fleek migration, a deletion request was filed.
 
 Follows the original Readme.
 
